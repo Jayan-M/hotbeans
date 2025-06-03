@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hot Beans Web</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+  </head>
+  <body style="padding-top: 70px">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <img src="images/logo.png" width="100" height="70" alt=""/>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"> <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a> </li>
+          <li class="nav-item active"> <a class="nav-link" href="About Us.html">About Us<span class="sr-only"> (current)</span></a> </li>
+		  <li class="nav-item active"> <a class="nav-link" href="Meet The Team.html">Meet the Team<span class="sr-only"> (current)</span></a> </li>
+		  <li class="nav-item active"> <a class="nav-link" href="Jobs.html">Jobs<span class="sr-only"> (current)</span></a> </li>
+		  <li class="nav-item active"> <a class="nav-link" href="Courses.html">Courses<span class="sr-only"> (current)</span></a> </li>
+		  <li class="nav-item active"> <a class="nav-link" href="Apply Now.html">Apply Now<span class="sr-only"> (current)</span></a> </li>
+          <li class="nav-item dropdown"> </li>
+        </ul>
+      </div>
+    </nav>
+
+   
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">CV Submission</a>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Submit Your CV</h1>
+    <div class="row">
+      <div class="col-md-6 col-xl-3">
+       
+      </div>
+
+      <div class="col-md-6">
+        <h3>Submit Your CV</h3>
+        <form>
+          <div class="mb-3">
+			 <label for="cvName" class="form-label">Job</label>
+<select class="form-control" id="cvName" required>
+    <option value="javaDeveloper">Java Developer</option>
+    <option value="webDeveloper">Web Developer</option>
+</select>
+
+            <label for="cvName" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="cvName" placeholder="Enter your full name" required>
+          </div>
+          <div class="mb-3">
+            <label for="cvEmail" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="cvEmail" placeholder="Enter your email" required>
+          </div>
+          <div class="mb-3">
+            <label for="cvFile" class="form-label">Upload CV</label>
+            <input type="file" class="form-control" id="cvFile" required>
+          </div>
+          <button type="submit" class="btn btn-success">Submit CV</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
